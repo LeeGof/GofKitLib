@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors = {"LeeGof"=>"ligfufida@gmail.com"}
   s.homepage = "https://github.com/LeeGof/GofKitLib.git"
   s.description = "GofKit静态库"
-  s.frameworks = ["Foundation", "UIKit"]
+  s.frameworks = ["Foundation", "UIKit", "WebKit"]
   s.requires_arc = true
   s.source = { :git => "https://github.com/LeeGof/GofKitLib.git", :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
