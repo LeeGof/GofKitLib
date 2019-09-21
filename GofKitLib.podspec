@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source = { :git => "https://github.com/LeeGof/GofKitLib.git", :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.vendored_frameworks = 'GofKitLib.framework'
+  s.vendored_frameworks = 'GofKit.framework'
   s.source_files = "GofKit/*.h"
   s.dependency 'Masonry', '1.1.0'
 end
