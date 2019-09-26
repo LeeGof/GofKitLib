@@ -173,7 +173,12 @@ typedef enum {
  *
  *  @param radius  圆角值
  */
-- (void)gof_adjustRadius:(CGFloat) radius;
+- (void)gof_adjustRadius:(CGFloat)radius;
+
+/// 设置圆角
+/// @param radius 圆角值
+/// @param corners 指定位置(UIRectCornerTopLeft|UIRectCornerTopRight|UIRectCornerBottomLeft|UIRectCornerBottomRight|UIRectCornerAllCorners)
+- (void)gof_adjustPathRadius:(CGFloat)radius corners:(UIRectCorner)corners;
 
 /*!
  *
